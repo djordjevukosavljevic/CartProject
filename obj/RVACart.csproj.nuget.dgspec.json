@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Documents\\Article\\RVACart\\RVACart.csproj": {}
+    "C:\\Users\\zorzezorz\\Documents\\RVACart\\RVACart.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Documents\\Article\\RVACart\\RVACart.csproj": {
+    "C:\\Users\\zorzezorz\\Documents\\RVACart\\RVACart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\Article\\RVACart\\RVACart.csproj",
+        "projectUniqueName": "C:\\Users\\zorzezorz\\Documents\\RVACart\\RVACart.csproj",
         "projectName": "RVACart",
-        "projectPath": "C:\\Users\\Lenovo\\Documents\\Article\\RVACart\\RVACart.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Documents\\Article\\RVACart\\obj\\",
+        "projectPath": "C:\\Users\\zorzezorz\\Documents\\RVACart\\RVACart.csproj",
+        "packagesPath": "C:\\Users\\zorzezorz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zorzezorz\\Documents\\RVACart\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zorzezorz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -96,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
