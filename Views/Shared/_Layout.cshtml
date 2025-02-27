@@ -52,9 +52,19 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2023 - RVACart - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; <span id="currentDate"></span> - RVACart - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+    <script>
+        function updateDate()
+        {
+            const dateElement = document.getElementById("currentDate");
+            const now = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            dateElement.textContent = now.toLocaleDateString(undefined, options);
+        }
+        updateDate();
+    </script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
