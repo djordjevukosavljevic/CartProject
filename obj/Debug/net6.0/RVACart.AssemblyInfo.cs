@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RVACart")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06c5f977c634f79838e8e044b0aea28a17339e15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c58d60a69cb7f007c25a5527dc35946c36c3279a")]
 [assembly: System.Reflection.AssemblyProductAttribute("RVACart")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RVACart")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
